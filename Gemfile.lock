@@ -1,0 +1,39 @@
+PATH
+  remote: .
+  specs:
+    unity-dynamodbstreams-event-processor (1.0.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    aws-eventstream (1.2.0)
+    aws-partitions (1.497.0)
+    aws-sdk-core (3.121.0)
+      aws-eventstream (~> 1, >= 1.0.2)
+      aws-partitions (~> 1, >= 1.239.0)
+      aws-sigv4 (~> 1.1)
+      jmespath (~> 1.0)
+    aws-sdk-dynamodbstreams (1.29.0)
+      aws-sdk-core (~> 3, >= 3.112.0)
+      aws-sigv4 (~> 1.1)
+    aws-sigv4 (1.4.0)
+      aws-eventstream (~> 1, >= 1.0.2)
+    jmespath (1.4.0)
+    ox (2.14.5)
+    rake (13.0.6)
+    unity-dynamodb-attribute-deserializer (1.0.0)
+    unity-dynamodbstreams-event-parser (1.0.0)
+      unity-dynamodb-attribute-deserializer (~> 1.0)
+
+PLATFORMS
+  x86_64-darwin-20
+
+DEPENDENCIES
+  aws-sdk-dynamodbstreams (~> 1.0)
+  ox (~> 2.14)
+  rake (~> 13.0)
+  unity-dynamodbstreams-event-parser (~> 1.0)
+  unity-dynamodbstreams-event-processor!
+
+BUNDLED WITH
+   2.2.3
