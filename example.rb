@@ -1,6 +1,6 @@
 require "bundler/setup"
 require 'unity-dynamodbstreams-event-parser'
-require "unity/dynamodbstreams/event_processor"
+require "unity-dynamodbstreams-event-processor"
 
 class TestHandler
   def call(event)
